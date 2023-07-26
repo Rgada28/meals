@@ -47,11 +47,11 @@ class _TabsScreenState extends ConsumerState<TabsScreen> {
   Widget build(BuildContext context) {
     final availableMeals = ref.watch(filterMealsProvider);
 
+    //Initially the active Page is Set to Categories Screen.
+    var activePageTitle = "Categories";
     Widget activePage = CategoriesScreen(
       availableMeals: availableMeals,
     );
-
-    var activePageTitle = "Categories";
 
     if (_selectedTabIndex == 1) {
       final favouriteMeals = ref.watch(favoriteMealsProvider);
@@ -62,10 +62,12 @@ class _TabsScreenState extends ConsumerState<TabsScreen> {
 
       activePageTitle = favTitle;
     }
+
     return Scaffold(
       appBar: AppBar(
         title: Text(activePageTitle),
       ),
+      //This is a custom Drawer function which trigger the appDrawer
       drawer: MainDrawer(
         onSelectScreen: _setScreen,
       ),

@@ -1,16 +1,38 @@
-# meals
+# Meals
 
-A new Flutter project.
+A Flutter project that displays a list of meals.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To get started, clone this repository and run the following commands:
+flutter pub get
+flutter run
 
-A few resources to get you started if this is your first Flutter project:
+This will start the app in your emulator or simulator.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The app displays a list of meals. Each meal has a name, an image, and a list of ingredients.
+
+- Navigations
+- Bottom Navigation Bar
+- Gridview
+- Animation
+- ListViewBuilder
+- State Management using Riverpod
+
+## Usage
+
+To use the app, simply tap on a meal to view its details.
+
+## Development
+
+The app is developed using Flutter. The code is well-organized and commented.
+
+| Categories Screen                   | Meals Screen                          |
+| ----------------------------------- | ------------------------------------- |
+| ![alt text](catergories_screen.png) | ![alt text](Meals_screen.png)         |
+| Filter Screen                       | App Drawer                            |
+| ![alt text](filter_screen.png)      | ![alt text](app_drawer.png)           |
+| Favourites Screen                   | Meal Detail Screen                    |
+| ![alt text](favourites_scree.png)   | ![alt text](meals_details_screen.png) |
