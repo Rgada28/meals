@@ -29,10 +29,14 @@ To use the app, simply tap on a meal to view its details.
 
 The app is developed using Flutter. The code is well-organized and commented.
 
-| Categories Screen                   | Meals Screen                          |
-| ----------------------------------- | ------------------------------------- |
-| ![alt text](catergories_screen.png) | ![alt text](Meals_screen.png)         |
-| Filter Screen                       | App Drawer                            |
-| ![alt text](filter_screen.png)      | ![alt text](app_drawer.png)           |
-| Favourites Screen                   | Meal Detail Screen                    |
-| ![alt text](favourites_scree.png)   | ![alt text](meals_details_screen.png) |
+| Categories Screen                   | Meals Screen                  |
+| ----------------------------------- | ----------------------------- |
+| ![alt text](catergories_screen.png) | ![alt text](Meals_screen.png) |
+
+| Filter Screen                  | App Drawer                  |
+| ------------------------------ | --------------------------- |
+| ![alt text](filter_screen.png) | ![alt text](app_drawer.png) |
+
+| Favourites Screen                 | Meal Detail Screen                    |
+| --------------------------------- | ------------------------------------- |
+| ![alt text](favourites_scree.png) | ![alt text](meals_details_screen.png) |
